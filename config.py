@@ -15,7 +15,6 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
-    SUBJECT_PREFIX = 'Pitch Minute'
     SENDER_EMAIL = 'joankorir44@gmail.com'
 
     @staticmethod
@@ -38,7 +37,7 @@ class TestConfig(Config):
         Config: The parent configuration class with General configuration settings
     """
 
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://joan:ray@localhost/pitchminute_test'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://joan:kyle@localhost/alert_emergency'
     pass
 
 
@@ -49,7 +48,7 @@ class DevConfig(Config):
         Config: The parent configuration class with General configuration settings
     """
 
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://joan:ray@localhost/pitchminute'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://joan:kyle@localhost/alert_emergency'
 
     DEBUG = True
 

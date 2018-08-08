@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # One_minute_pitch
 
 The project is about viewing different pitches categories , submiting it and one can also and a upvote if they are impressses with the pitch content, {2,7,2018}
@@ -30,3 +31,6 @@ The project enables users to view various categories of pitches .They can add a 
 ## support and contact details
 
 From my test and debuggs i have run i am much sure they isn't any errors one can encounter but i
+=======
+# Ambulance-alert
+>>>>>>> 4a0d85bc8b05a3fb6a2cf7679750e976c4a04a05
